@@ -235,6 +235,8 @@ while True:
     elif mfk.count("31") != 0 and mfk.count("32") != 0 and mfk.count("33") != 0:
         pag.alert("Крестик победил!")
         exit(0)
+    else:
+        pass
     #ПРОВЕРКА НОЛИКА
     if mfn.count("11") != 0 and mfn.count("12") != 0 and mfn.count("13") != 0:
         pag.alert("Нолик победил!")
@@ -266,6 +268,8 @@ while True:
     elif mfn.count("31") != 0 and mfn.count("32") != 0 and mfn.count("33") != 0:
         pag.alert("Нолик победил!")
         exit(0)
+    else:
+        pass
 
     nolek = random.randint(1, 3)
     while line1[nolek] != 0:
@@ -334,6 +338,8 @@ while True:
     elif mfk.count("31") != 0 and mfk.count("32") != 0 and mfk.count("33") != 0:
         pag.alert("Крестик победил!")
         exit(0)
+    else:
+        pass
     #ПРОВЕРКА НОЛИКА
     if mfn.count("11") != 0 and mfn.count("12") != 0 and mfn.count("13") != 0:
         pag.alert("Нолик победил!")
@@ -365,6 +371,8 @@ while True:
     elif mfn.count("31") != 0 and mfn.count("32") != 0 and mfn.count("33") != 0:
         pag.alert("Нолик победил!")
         exit(0)
+    else:
+        pass
 
 print(line1)
 print(line2)
