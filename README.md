@@ -5,3 +5,4 @@
 
 # Модули:
 1.Turtle
+2.Pyautogui
